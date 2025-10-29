@@ -10,11 +10,6 @@ function App(props) {
           <p>{props.desc}</p>
           <p style={{color: "red"}}>{props.desc2}</p>
         </div>
-        <div className="caixa">
-          <h1></h1>
-          <p></p>
-          <p styled={{color: blue}}>{}</p>
-        </div>
       </div>
   );
 }

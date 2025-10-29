@@ -5,7 +5,6 @@ function Dados() {
         <>
             <Botao text="Enviar" corFundo="green" />
             <Botao text="Cancelar" corFundo="red" />
-
         </>
     );
 }
