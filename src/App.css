@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 25vh;
   background:  rgba(71, 68, 71, 0.404);
 }
 .box {
@@ -34,7 +34,20 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   background:  rgba(231, 149, 82, 0.404);
+}
+
+.titleBotao {
+  display: flex; 
+  font-family: Arial;
+  font-size: 15px;
+  margin-right: 15px;
+  background-color: rgba(20, 20, 20, 0.863);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: white;
 }
 

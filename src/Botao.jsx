@@ -4,6 +4,9 @@ function Botao(props) {
     const [clicando, setClicando] = useState(false);
     return (
         <div className="container2">
+            <div className="titleBotao">
+                <h1>Aqui estamos Fazendo manipulação do botao com props</h1>
+            </div>
              <button style={{    
                 backgroundColor: props.corFundo,          
                 color: 'white', 
