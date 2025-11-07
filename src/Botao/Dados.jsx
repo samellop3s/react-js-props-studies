@@ -1,10 +1,10 @@
-import Botao from './Botao.jsx';
+import Botao from './Botao';
 
 function Dados() {
     return (
         <>
             <Botao text="Enviar" corFundo="green" />
-            <Botao text="Cancelar" corFundo="red" />
+            
         </>
     );
 }

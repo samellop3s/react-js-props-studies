@@ -1,4 +1,4 @@
-import "./App.css";
+import "../Style/Style.css";
 function App(props) {
   return (
     <>
