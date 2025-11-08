@@ -8,7 +8,7 @@ import Info from "./Usuarios/info.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Pessoas />
-     <Pessoas2 />
+    <Pessoas2 />
     <Dados />
     <Info />
   </StrictMode>

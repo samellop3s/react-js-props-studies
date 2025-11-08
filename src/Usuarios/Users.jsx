@@ -1,4 +1,4 @@
-import Style from "../Style/Style.css";
+import "../Style/Style.css";
 
 function Users(Props) {
   return ( 

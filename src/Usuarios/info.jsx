@@ -8,4 +8,4 @@ function Info() {
     return <Users title={title} desc={desc} yeas={yeas} city={city} />;
 }
 
-export default Info;
+export default Info;    
