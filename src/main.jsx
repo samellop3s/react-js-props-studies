@@ -6,6 +6,7 @@ import Dados from "./Botao/Dados.jsx";
 import Info from "./Usuarios/info.jsx";
 import Render from "./ImagemComLegenda/render.jsx";
 import InfoProfile from "./Profile/InfoProfile.jsx";
+import ProdutoInfo from "./Produto/ProdutoInfo.jsx";
 
 
 createRoot(document.getElementById("root")).render(
@@ -16,5 +17,7 @@ createRoot(document.getElementById("root")).render(
     <Info />
     <Render />
     <InfoProfile />
+    <ProdutoInfo />
   </StrictMode>
 );
+  

@@ -116,3 +116,27 @@
   color: #666;
   margin-top: 5px;
 }
+
+.container-produto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+  background:  rgba(231, 82, 149, 0.404);
+}
+
+.card-produto {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  transition: transform 0.3s ease;
+}
+
+.card-produto:hover {
+  transform: scale(1.03);
+}
