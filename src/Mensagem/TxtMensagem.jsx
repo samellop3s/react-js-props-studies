@@ -4,9 +4,9 @@ function TextMensagem () {
     return (
         <div>
             <Mensagem 
-                Usuario="Katarina"
-                Texto="Oi, tudo bem?"
-                hora="14:35hrs"
+                usuario="Katarina"
+                texto="Oi, tudo bem?"
+                hora="--14:35hrs--"
             />
         </div>
     );

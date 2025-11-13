@@ -143,43 +143,52 @@
 
 .container-mensagem {
   display: flex;
-  justify-content: center;
   align-items: center;
   width: 100%;
   height: 30vh;
-  background:  rgba(149, 231, 82, 0.404);
+  background-image: url('../Componentes/Imagens/backgroundMensagem.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card-mensagem {
-  background-color: #be3e3e;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
-  width: 400px;
-  height: 75px;
-  transition: transform 0.3s ease;
+  background-color: #6d5f5f;
+  padding: 16px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  width: 380px;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-mensagem:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
 }
 
 .usuario-mensagem h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #fff;
-  margin-bottom: 1px;
-  margin-top: 0px;
-  text-align:start;
+  margin-bottom: 6px;
+  text-align: start;
 }
 
 .texto-mensagem p {
   font-size: 1rem;
   color: #fff;
-  margin-bottom: 5px;
-  margin-left: 25px;
+  margin: 0 0 6px 20px;
 }
 
 .horario-mensagem span {
   font-size: 0.8rem;
-  display: flex;
-  color: #fff;
-  text-align: right;
-  margin-left: 300px; 
-  padding-bottom: 50px;
+  color: #f0f0f0;
+  text-align: end;
+  display: block;
+  opacity: 0.8;
 }
+
+
