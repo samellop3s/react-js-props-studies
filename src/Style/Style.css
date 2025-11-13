@@ -140,3 +140,46 @@
 .card-produto:hover {
   transform: scale(1.03);
 }
+
+.container-mensagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  background:  rgba(149, 231, 82, 0.404);
+}
+
+.card-mensagem {
+  background-color: #be3e3e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 75px;
+  transition: transform 0.3s ease;
+}
+
+.usuario-mensagem h2 {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 1px;
+  margin-top: 0px;
+  text-align:start;
+}
+
+.texto-mensagem p {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 5px;
+  margin-left: 25px;
+}
+
+.horario-mensagem span {
+  font-size: 0.8rem;
+  display: flex;
+  color: #fff;
+  text-align: right;
+  margin-left: 300px; 
+  padding-bottom: 50px;
+}
