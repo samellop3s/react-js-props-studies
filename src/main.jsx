@@ -8,6 +8,7 @@ import Render from "./ImagemComLegenda/render.jsx";
 import InfoProfile from "./Profile/InfoProfile.jsx";
 import ProdutoInfo from "./Produto/ProdutoInfo.jsx";
 import TxtMensagem from "./Mensagem/TxtMensagem.jsx";
+import CartaoPerfilInfo from "./CartaoPerfil/CartaoPerfilInfo.jsx";
 
 
 
@@ -21,6 +22,7 @@ createRoot(document.getElementById("root")).render(
     <InfoProfile />
     <ProdutoInfo />
     <TxtMensagem />
+    <CartaoPerfilInfo />
   </StrictMode>
 );
   

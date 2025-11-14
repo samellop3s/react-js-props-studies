@@ -2,7 +2,7 @@ import "../Style/Style.css";
 
 function CartaoPerfil(props) {
     return(
-        <div className="container-cartaoPerfi">
+        <div className="container-cartaoPerfil">
             <div className="card-cartaoPerfil">
                 <div className="card-selfi">
                     <img src={props.src} alt="Foto de Perfil" className="foto-de-perfil"/>
