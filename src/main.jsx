@@ -9,6 +9,7 @@ import InfoProfile from "./Profile/InfoProfile.jsx";
 import ProdutoInfo from "./Produto/ProdutoInfo.jsx";
 import TxtMensagem from "./Mensagem/TxtMensagem.jsx";
 import CartaoPerfilInfo from "./CartaoPerfil/CartaoPerfilInfo.jsx";
+import AcaoDoBotao from "./BotaoComAcao/AcaoDoBotao.jsx";
 
 
 
@@ -23,6 +24,7 @@ createRoot(document.getElementById("root")).render(
     <ProdutoInfo />
     <TxtMensagem />
     <CartaoPerfilInfo />
+    <AcaoDoBotao />
   </StrictMode>
 );
   
