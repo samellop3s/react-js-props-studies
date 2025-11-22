@@ -11,6 +11,7 @@ import TxtMensagem from "./Mensagem/TxtMensagem.jsx";
 import CartaoPerfilInfo from "./CartaoPerfil/CartaoPerfilInfo.jsx";
 import AcaoDoBotao from "./BotaoComAcao/AcaoDoBotao.jsx";
 import ListaItensInfo from "./ListaDeItens/ListaItensInfo.jsx";
+import AgendaInfo from "./Agenda/AgendaInfo.jsx";
 
 
 
@@ -27,6 +28,7 @@ createRoot(document.getElementById("root")).render(
     <CartaoPerfilInfo />
     <AcaoDoBotao />
     <ListaItensInfo />
+    <AgendaInfo />
   </StrictMode>
 );
   
