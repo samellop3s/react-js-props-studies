@@ -264,19 +264,42 @@
 .container-listaItens {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
   height: 60vh;
-  background:  rgba(149, 231, 82, 0.404);
+  background-color:  rgba(81, 104, 62, 0.404);
+  
 } 
 
 .container-titleDescri {
-  margin-bottom: 15px;
-  text-align: center;
+  border: solid 1px #756666;
+  width: 350px;
+  height: 400px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* layout para alinhar conteúdos à esquerda */
+  display: flex;            /* adicionado */
+  flex-direction: column;   /* adicionado */
+  align-items: flex-start;  /* adicionado: alinha filhos à esquerda */
+  padding: 16px;            /* adicionado: espaçamento interno */
+  box-sizing: border-box;
+  text-align: left;
+  background:  rgba(172, 221, 132, 0.404);
+  margin: 10px;
 }
 
-.container-listaItens ul {
-  list-style-type: disc;
-  padding-left: 20px;
-  text-align: left;
+.container-titleDescri h2 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  align-self: flex-start; /* assegura título à esquerda */
+}
+
+/* lista posicionada à esquerda dentro do cartão */
+.container-Itens {
+  display: block;
+  overflow-y: auto;    /* permite rolagem se necessário */
+  margin: 15px 0 0 0;  /* remove margem lateral */
+  max-height: 300px;    
+  text-align: left;    /* alinha itens à esquerda */
+  width: 100%;         /* ocupa a largura interna do container */
+  border: solid 1px #201d1d;
 }

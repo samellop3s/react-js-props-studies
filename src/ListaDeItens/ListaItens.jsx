@@ -12,14 +12,14 @@ function ListaItens(props) {
             <div className="container-titleDescri">
                 <h2>{props.titulo}</h2>
                 <p>{props.descricao}</p>
-            </div>
-            <ul className="container-listaItens">
+                <ul className="container-Itens">
                 {itens.map((item, index) => (
                     // Aqui mapeamos `itens` para <li>. Usamos o index como key
                     // (aceitável para listas pequenas/estáticas; para listas dinâmicas prefira um id único)
                     <li key={index}>{item}</li>
                 ))}
             </ul>
+            </div>
         </div>
     );
 }
