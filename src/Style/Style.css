@@ -303,3 +303,28 @@
   width: 100%;         /* ocupa a largura interna do container */
   border: solid 1px #201d1d;
 }
+
+.container-ImagemComBorda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  background:  rgba(90, 185, 236, 0.414);
+}
+.container-Imagem {
+  border: 3px solid red;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  overflow: hidden; /* IMPORTANTE */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-Imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Faz a imagem preencher a área sem deformar */
+}

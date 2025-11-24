@@ -1,9 +1,9 @@
-import "../src/Style/Style.css";
+import "../Style/Style.css";
 
 function ImagemComBorda (props) {
     return (
         <div className="container-ImagemComBorda">
-            <div className="container-imagem">
+            <div className="container-Imagem">
                 <img 
                     src={props.src} 
                     alt={props.alt} 

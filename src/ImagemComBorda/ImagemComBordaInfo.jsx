@@ -1,5 +1,6 @@
 import ImagemComBorda from './ImagemComBorda';
-import ImgReact from '../src/Componentes/Imagens/ImgReact.png';
+import ImgReact from "../Componentes/Imagens/ImgReact.png";
+
 function ImagemComBordaInfo() {
     return(
         <ImagemComBorda 

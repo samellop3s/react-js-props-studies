@@ -12,6 +12,8 @@ import CartaoPerfilInfo from "./CartaoPerfil/CartaoPerfilInfo.jsx";
 import AcaoDoBotao from "./BotaoComAcao/AcaoDoBotao.jsx";
 import ListaItensInfo from "./ListaDeItens/ListaItensInfo.jsx";
 import AgendaInfo from "./Agenda/AgendaInfo.jsx";
+import ImagemComBordaInfo from "./ImagemComBorda/ImagemComBordaInfo.jsx";
+
 
 
 
@@ -19,7 +21,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Pessoas />
     <Pessoas2 />
-    <Dados />
+    <Dados /> 
     <Info />
     <Render />
     <InfoProfile />
@@ -29,6 +31,7 @@ createRoot(document.getElementById("root")).render(
     <AcaoDoBotao />
     <ListaItensInfo />
     <AgendaInfo />
+    <ImagemComBordaInfo />
   </StrictMode>
 );
   
