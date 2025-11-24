@@ -13,6 +13,7 @@ import AcaoDoBotao from "./BotaoComAcao/AcaoDoBotao.jsx";
 import ListaItensInfo from "./ListaDeItens/ListaItensInfo.jsx";
 import AgendaInfo from "./Agenda/AgendaInfo.jsx";
 import ImagemComBordaInfo from "./ImagemComBorda/ImagemComBordaInfo.jsx";
+import AlunoInfo from "./Aluno/AlunoInfo.jsx";
 
 
 
@@ -32,6 +33,7 @@ createRoot(document.getElementById("root")).render(
     <ListaItensInfo />
     <AgendaInfo />
     <ImagemComBordaInfo />
+    <AlunoInfo />
   </StrictMode>
 );
   
