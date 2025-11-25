@@ -1,3 +1,5 @@
+import "../Style/Style.css";
+
 function Agenda(props) {
 
     const dates = Array.isArray(props.data) ? props.data : (props.data ? [props.data] : []);
@@ -17,9 +19,8 @@ function Agenda(props) {
                     <li key={index}>Data: {date} </li>
                 ))}
             </ul>
-
         </div>
-    );
+    );  
 }
 
 export default Agenda;
